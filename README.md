@@ -1,3 +1,20 @@
+
+# Update so that it actually builds.
+
+At the moment (2024/02/19) the hpack-convert won't build with the latest GHC (such as 9.8.1, ghc-9.4.8), and the [official repository](https://github.com/yamadapc/hpack-convert) doesn't provide a windows binary release. This prevents you from using hpack-convert on windows.
+
+For ease of use, a windows binary is provided here.
+
+It built on windows (lts-15.5) successfully and it works well, using @kindaro 's fork: https://github.com/kindaro/hpack-convert/commit/fa98909f18992713fba82d2033e04fdedb58592a
+
+Related links:
+
+https://github.com/yamadapc/hpack-convert/issues/18
+
+https://github.com/yamadapc/hpack-convert/pull/16
+
+---
+
 # hpack-convert
 [![Build Status](https://travis-ci.org/yamadapc/hpack-convert.svg?branch=hpack-convert)](https://travis-ci.org/yamadapc/hpack-convert)
 - - -
